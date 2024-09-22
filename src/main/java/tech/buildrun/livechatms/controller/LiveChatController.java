@@ -1,14 +1,15 @@
-package tech.buildrun.livechat.controller;
+package tech.buildrun.livechatms.controller;
 
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.util.HtmlUtils;
-import tech.buildrun.livechat.domain.ChatInput;
-import tech.buildrun.livechat.domain.ChatOutput;
+import tech.buildrun.livechatms.domain.ChatInput;
+import tech.buildrun.livechatms.domain.ChatOutput;
 
 @Controller
 public class LiveChatController {
+
 
     @MessageMapping("/new-message")
     @SendTo("/topics/livechat")

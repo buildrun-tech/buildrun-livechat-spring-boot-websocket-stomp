@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>tech.buildrun</groupId>
-	<artifactId>livechat</artifactId>
+	<artifactId>livechatms</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>livechat</name>
+	<name>livechatms</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>

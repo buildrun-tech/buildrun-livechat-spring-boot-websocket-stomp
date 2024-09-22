@@ -1,4 +1,4 @@
-package tech.buildrun.livechat.config;
+package tech.buildrun.livechatms.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;

@@ -1,13 +1,13 @@
-package tech.buildrun.livechat;
+package tech.buildrun.livechatms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LivechatApplication {
+public class LivechatmsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LivechatApplication.class, args);
+		SpringApplication.run(LivechatmsApplication.class, args);
 	}
 
 }
